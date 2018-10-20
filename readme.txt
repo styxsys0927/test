@@ -16,3 +16,8 @@ This is a tutorial of how to use Git.
 6. Check status changes
 	$ git status
 	$ git diff
+7. reset status
+	$ git log
+	$ git reset --hard HEAD^ (the last version; HEAD^^: two versions before; HEAD-100: 100 versions before)
+	$ git reset --hard <partial commit id> (can be used to reverse rollbacks)
+	$ git reflog (check former allocated commit ids)
