@@ -13,3 +13,6 @@ This is a tutorial of how to use Git.
 5. Add file
 	$ git add readme.txt
 	$ git commit -m "A readme of how to use Git"
+6. Check status changes
+	$ git status
+	$ git diff
